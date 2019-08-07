@@ -1,0 +1,8 @@
+
+<%= form_for(@post) do |f| %>
+    <h4>Title</h4>
+    <div class="field"><%= f.text_field :title %></div>
+    <h4>Body</h4>
+    <div class="field"><%= f.text_area :body %></div>
+    <div class="actions"><%= f.submit 'Update book' %></div>
+<% end %>
